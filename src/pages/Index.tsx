@@ -15,6 +15,7 @@ import elementFire from "@/assets/element-fire.jpg";
 import elementWater from "@/assets/element-water.jpg";
 import elementEarth from "@/assets/element-earth.jpg";
 import elementAir from "@/assets/element-air.jpg";
+import logoBlack from "@/assets/logo-black.svg";
 
 const Index = () => {
   const images = [hala1, hala2, hala3, hala4, hala5, hala6, hala7, hala8, hala9];
@@ -220,13 +221,22 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-12">
         <div className="container mx-auto px-4 text-center">
-          <h3 className="text-3xl font-bold mb-4">Molecules of Life</h3>
-          <p className="text-lg mb-6 opacity-90">
-            Longevity pro každou buňku těla
-          </p>
-          <p className="text-sm opacity-75">
-            © 2025 Molecules of Life - Levandulové údolí
-          </p>
+          <div className="flex flex-col items-center gap-6">
+            <img 
+              src={logoBlack} 
+              alt="Molecules of Life Logo" 
+              className="h-24 w-auto opacity-90"
+            />
+            <div>
+              <h3 className="text-3xl font-bold mb-2">Molecules of Life</h3>
+              <p className="text-lg mb-4 opacity-90">
+                Longevity pro každou buňku těla
+              </p>
+            </div>
+            <p className="text-sm opacity-75">
+              © 2025 Molecules of Life - Levandulové údolí
+            </p>
+          </div>
         </div>
       </footer>
     </div>
