@@ -104,7 +104,7 @@ const Index = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-foreground">
             Aristotelovské živly
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
             <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="aspect-square overflow-hidden">
                 <img
