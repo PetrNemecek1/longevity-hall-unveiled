@@ -105,12 +105,12 @@ const Index = () => {
             Aristotelovské živly
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+            <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="aspect-square overflow-hidden">
                 <img
                   src={elementFire}
                   alt="Oheň - Energie a vitalita"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="text-center p-6">
@@ -118,12 +118,12 @@ const Index = () => {
                 <p className="text-muted-foreground">Energie a vitalita pro vaše tělo</p>
               </div>
             </Card>
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+            <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="aspect-square overflow-hidden">
                 <img
                   src={elementWater}
                   alt="Voda - Čistota a harmonie"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="text-center p-6">
@@ -131,12 +131,12 @@ const Index = () => {
                 <p className="text-muted-foreground">Čistota a harmonie mysli</p>
               </div>
             </Card>
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+            <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="aspect-square overflow-hidden">
                 <img
                   src={elementEarth}
                   alt="Země - Stabilita a síla přírody"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="text-center p-6">
@@ -144,12 +144,12 @@ const Index = () => {
                 <p className="text-muted-foreground">Stabilita a síla přírody</p>
               </div>
             </Card>
-            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+            <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="aspect-square overflow-hidden">
                 <img
                   src={elementAir}
                   alt="Vzduch - Lehkost a svoboda"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
               <div className="text-center p-6">
