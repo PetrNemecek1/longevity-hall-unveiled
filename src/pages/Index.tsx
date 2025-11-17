@@ -35,7 +35,7 @@ const Index = () => {
           <img 
             src={logoColor} 
             alt="Molecules of Life Logo" 
-            className="h-32 md:h-40 w-auto mx-auto mb-8 drop-shadow-lg"
+            className="h-36 md:h-44 w-auto mx-auto mb-8 drop-shadow-lg"
           />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-lavender via-primary to-golden bg-clip-text text-transparent">
             Molecules of Life
@@ -231,7 +231,7 @@ const Index = () => {
             <img 
               src={logoBlack} 
               alt="Molecules of Life Logo" 
-              className="h-24 w-auto opacity-90"
+              className="h-28 w-auto opacity-90"
             />
             <div>
               <h3 className="text-3xl font-bold mb-2">Molecules of Life</h3>
