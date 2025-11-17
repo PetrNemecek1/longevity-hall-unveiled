@@ -11,6 +11,10 @@ import hala6 from "@/assets/hala-6.jpg";
 import hala7 from "@/assets/hala-7.jpg";
 import hala8 from "@/assets/hala-8.jpg";
 import hala9 from "@/assets/hala-9.jpg";
+import elementFire from "@/assets/element-fire.jpg";
+import elementWater from "@/assets/element-water.jpg";
+import elementEarth from "@/assets/element-earth.jpg";
+import elementAir from "@/assets/element-air.jpg";
 
 const Index = () => {
   const images = [hala1, hala2, hala3, hala4, hala5, hala6, hala7, hala8, hala9];
@@ -101,25 +105,57 @@ const Index = () => {
             Aristotelovské živly
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="text-center p-8 hover:shadow-lg transition-shadow">
-              <div className="mb-4 text-5xl">🔥</div>
-              <h3 className="text-2xl font-bold mb-3 text-primary">Oheň</h3>
-              <p className="text-muted-foreground">Energie a vitalita pro vaše tělo</p>
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-square overflow-hidden">
+                <img
+                  src={elementFire}
+                  alt="Oheň - Energie a vitalita"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="text-center p-6">
+                <h3 className="text-2xl font-bold mb-3 text-primary">Oheň</h3>
+                <p className="text-muted-foreground">Energie a vitalita pro vaše tělo</p>
+              </div>
             </Card>
-            <Card className="text-center p-8 hover:shadow-lg transition-shadow">
-              <div className="mb-4 text-5xl">💧</div>
-              <h3 className="text-2xl font-bold mb-3 text-primary">Voda</h3>
-              <p className="text-muted-foreground">Čistota a harmonie mysli</p>
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-square overflow-hidden">
+                <img
+                  src={elementWater}
+                  alt="Voda - Čistota a harmonie"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="text-center p-6">
+                <h3 className="text-2xl font-bold mb-3 text-primary">Voda</h3>
+                <p className="text-muted-foreground">Čistota a harmonie mysli</p>
+              </div>
             </Card>
-            <Card className="text-center p-8 hover:shadow-lg transition-shadow">
-              <div className="mb-4 text-5xl">🌍</div>
-              <h3 className="text-2xl font-bold mb-3 text-primary">Země</h3>
-              <p className="text-muted-foreground">Stabilita a síla přírody</p>
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-square overflow-hidden">
+                <img
+                  src={elementEarth}
+                  alt="Země - Stabilita a síla přírody"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="text-center p-6">
+                <h3 className="text-2xl font-bold mb-3 text-primary">Země</h3>
+                <p className="text-muted-foreground">Stabilita a síla přírody</p>
+              </div>
             </Card>
-            <Card className="text-center p-8 hover:shadow-lg transition-shadow">
-              <div className="mb-4 text-5xl">💨</div>
-              <h3 className="text-2xl font-bold mb-3 text-primary">Vzduch</h3>
-              <p className="text-muted-foreground">Lehkost a svoboda duše</p>
+            <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="aspect-square overflow-hidden">
+                <img
+                  src={elementAir}
+                  alt="Vzduch - Lehkost a svoboda"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="text-center p-6">
+                <h3 className="text-2xl font-bold mb-3 text-primary">Vzduch</h3>
+                <p className="text-muted-foreground">Lehkost a svoboda duše</p>
+              </div>
             </Card>
           </div>
         </div>
