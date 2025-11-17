@@ -16,6 +16,7 @@ import elementWater from "@/assets/element-water.jpg";
 import elementEarth from "@/assets/element-earth.jpg";
 import elementAir from "@/assets/element-air.jpg";
 import logoBlack from "@/assets/logo-black.svg";
+import logoColor from "@/assets/logo-color.svg";
 
 const Index = () => {
   const images = [hala1, hala2, hala3, hala4, hala5, hala6, hala7, hala8, hala9];
@@ -31,6 +32,11 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-lavender/10 via-background/30 to-golden/5" />
         
         <div className="relative z-10 container mx-auto px-4 py-20 text-center">
+          <img 
+            src={logoColor} 
+            alt="Molecules of Life Logo" 
+            className="h-32 md:h-40 w-auto mx-auto mb-8 drop-shadow-lg"
+          />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-lavender via-primary to-golden bg-clip-text text-transparent">
             Molecules of Life
           </h1>
