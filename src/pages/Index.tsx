@@ -20,10 +20,10 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div 
-          className="absolute inset-0 bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center opacity-50"
           style={{ backgroundImage: `url(${hala7})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-lavender/15 via-background/50 to-golden/10" />
+        <div className="absolute inset-0 bg-gradient-to-br from-lavender/10 via-background/30 to-golden/5" />
         
         <div className="relative z-10 container mx-auto px-4 py-20 text-center">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-lavender via-primary to-golden bg-clip-text text-transparent">
